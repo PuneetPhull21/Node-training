@@ -34,6 +34,7 @@ function Divide(number, number2) {
   }
 }
 Divide(1, 0);
+Divide(4,2);
 
 //Multiplication
 
