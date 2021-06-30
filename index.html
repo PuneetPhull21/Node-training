@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <link  href="index.css" >
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Node</title>
-</head>
-<body>
-    <h1>Welcome to Node js </h1>
-</body>
+  </head>
+  <style>
+    h1 {
+      color: blue;
+      text-align: center;
+      font-family: cursive;
+    }
+  </style>
+  <script>
+        function print(){
+            Users = {
+  UserBasic: {
+    std1: "Puneet Phull",
+    std2: "vikas",
+    std3: "Aman",
+    std4: "Deeksha",
+  },
+  UserExp: {
+    Exp: "Fresher",
+    Join: 2021,
+  },
+  UserPhotos: {
+    Photo1: "value1",
+    Photo2: "value2",
+    Photo3: "value3",
+    Photo4: "value4",
+  }
+  
+};
+document.write("<table>",
+  "<tr>",
+    "<th>Firstname</th>",
+    "<th>Lastname</th>",
+    "<th>Age</th>",
+  "</tr>",
+  "<tr>",
+    "<td>",this.Users.UserBasic.std1,"</td>",
+    "<td>",this.Users.UserExp.Exp,"</td>",
+    "<td>",this.Users.UserPhotos.Photo1,"</td>",
+ "</tr>",
+ "<tr>",
+    "<td>",this.Users.UserBasic.std2,"</td>",
+    "<td>",this.Users.UserExp.Exp,"</td>",
+    "<td>",this.Users.UserPhotos.Photo2,"</td>",
+ "</tr>",
+ "<tr>",
+    "<td>",this.Users.UserBasic.std3,"</td>",
+    "<td>",this.Users.UserExp.Exp,"</td>",
+    "<td>",this.Users.UserPhotos.Photo3,"</td>",
+ "</tr>",
+ "<tr>",
+    "<td>",this.Users.UserBasic.std4,"</td>",
+    "<td>",this.Users.UserExp.Exp,"</td>",
+    "<td>",this.Users.UserPhotos.Photo4,"</td>",
+ "</tr>",
+"</table>");
+        }
+  </script>
+  <body>
+    <h1>Welcome to Node j s</h1>
+    <p id="demo"></p>
+    <button style="margin-left: 45rem;" onclick="print()">ClicME</button>
+  </body>
 </html>
