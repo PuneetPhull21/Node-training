@@ -1,5 +1,7 @@
 //let print the table in the
 function table(table) {
+  const prompt = require("prompt-sync");
+  let number = prompt("enter the number"); 
   for (var i = 0; i <= 10; i++) {
     console.log(table, "*", i, "=", table * i);
   }
